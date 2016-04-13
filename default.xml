@@ -9,7 +9,7 @@
 
   <remote  name="cm"
            fetch="https://github.com"
-           revision="refs/heads/cm-13.0"
+           revision="refs/heads/cm-13.0" />
  
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
