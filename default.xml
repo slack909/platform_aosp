@@ -10,7 +10,7 @@
            j="4" />
   <remote  name="cm"
            fetch="https://github.com"
-           revision="refs/heads/
+           revision="refs/heads/cm-13.0
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -543,5 +543,23 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+####CYAN#####
+<!-- BEGIN CYANOGENMOD -->
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="cm" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" />
+  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" remote="cm" />
+  <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" remote="cm"  />
+  <project path="hardware/intel/common/libwsbm" name="CyanogenMod/android_hardware_intel_common_libwsbm" remote="cm" />
+  <project path="hardware/intel/common/omx-components" name="CyanogenMod/android_hardware_intel_common_omx-components" remote="cm" />
+  <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" remote="cm" />
+  <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" remote="cm" />
+  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" remote="cm" />
+  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="cm" />
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="cm" />
+  <project name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="cm" />
+  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" />
+  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="cm" />
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" remo
 
 </manifest>
