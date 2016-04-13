@@ -4,13 +4,13 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <remote  name="cm"
-           fetch="https://github.com"
-           revision="refs/heads/cm-13.0" />
-
   <default revision="master"
            remote="aosp"
            sync-j="4" />
+
+  <remote  name="cm"
+           fetch="https://github.com"
+           revision="refs/heads/cm-13.0" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
