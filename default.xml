@@ -545,7 +545,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 ####CYAN#####
-<!-- BEGIN CYANOGENMOD -->
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="cm" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" />
   <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" remote="cm" />
@@ -560,6 +559,6 @@
   <project name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="cm" />
   <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" />
   <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="cm" />
-  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" remo
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" remote="cm" />
 
 </manifest>
