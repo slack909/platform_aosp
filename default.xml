@@ -10,8 +10,7 @@
 
   <default revision="master"
            remote="aosp"
-           sync-
-           j="4" />
+           sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
